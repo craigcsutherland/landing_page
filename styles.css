@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(83, 54, 250, 0.574);
+    background-image: url(images/space.jpg);
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    width: 700px;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+h3 {
+    width: 700px;
+    padding-top: 0px;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    
+}
+
+img {
+    
+    padding-top: 10px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#imageBox {
+    display: flex;
+    justify-content: center;
+}
+
+#jobBox {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    gap: 150px;
+}
+
+.btn {
+    
+    font-family: 'Orbitron', sans-serif;
+    
+  } 
+   
+  .btn:hover .btn-slide-show-text1 {
+    margin-left: 65px;
+  } 
+   
+  .btn-moving-gradient {
+    height: 55px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+  } 
+   
+  .btn-moving-gradient:hover {
+    transition: all 0.5s ease-in-out 0s;
+    background-position: 100% 0px;
+  } 
+   
+  .btn-moving-gradient--blue {
+    background-image: linear-gradient(90deg, rgb(61, 135, 255), rgb(190, 61, 255), rgb(126, 61, 255), rgb(58, 134, 255));
+    box-shadow: rgb(190, 61, 255) 0px 4px 15px 0px;
+  } 
